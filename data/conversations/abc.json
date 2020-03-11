@@ -1,0 +1,16 @@
+{
+  "id": "abc",
+  "participants": ["Student", "Peggy"],
+  "messages": [
+      {
+        "sender": "Peggy",
+        "time": 1512246372169,
+        "message": "Hello, Student. I am Peggy. Nice to meet you!"
+      },
+      {
+        "sender": "Student",
+        "time": 1712246372169,
+        "message": "Hello, Peggy! Nice to meet you! How is your holiday?"
+      }
+    ]
+}
