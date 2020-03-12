@@ -4,6 +4,10 @@ Create a real-time chat web app using Amazon Web Services - Lambda, DynamoDB, AP
 
 - Build a chat application entirely with AWS services, and no stand-alone servers at all
 
+- Model Restful APIs and create SDKs with API Gateway
+
+- Store and retrieve data with DynamoDB, a NoSQL database
+
 - Serve static resources to browsers using AWS's S3 (Simple Storage Service)
 
 - Manage permissions and access policies using IAM (Identity and Access Management)
@@ -11,10 +15,6 @@ Create a real-time chat web app using Amazon Web Services - Lambda, DynamoDB, AP
 - Manipulate and vend data in the cloud using AWS Lambda
 
 - Use CORS to manage client-side security in serverless apps
-
-- Store and retrieve data with DynamoDB, a NoSQL database
-
-- Model Restful APIs and create SDKs with API Gateway
 
 - Create a user login system with Cognito
 
