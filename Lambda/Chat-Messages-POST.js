@@ -13,7 +13,7 @@ exports.handler = function (event, context, callback) {
                 N: "" + new Date().getTime()
             },
             Message: {S: event.message},
-            Sender: {S: 'Student'}
+            Sender: {S: event.cognitoUsername}
         }
     }, function(err, data) {
         if(err !== null) {

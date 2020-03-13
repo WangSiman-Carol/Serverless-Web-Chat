@@ -10,9 +10,9 @@ exports.handler = function (event, context, callback) {
         IndexName: 'Username-ConversationID-index',
         Select: 'ALL_PROJECTED_ATTRIBUTES',
         KeyConditionExpression: 'Username = :username',
-        ExpressionAttributeValues: {':username': {S: 'Student'}}
+        ExpressionAttributeValues: {':username': {S: event.cognitoUsername}}
     }, function (err, data) {
-        handleIdQuery(err, data, callback, [], 'Student');
+        handleIdQuery(err, data, callback, [], event.cognitoUsername);
     });
 };
 
